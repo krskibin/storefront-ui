@@ -39,6 +39,12 @@ storiesOf("Atoms|Image", module)
       lazy: {
         default: boolean("lazy (prop)", true)
       },
+      width: {
+        default: number("Picture width(prop)", 216)
+      },
+      height: {
+        default: number("Picture height(prop)", 326)
+      },
       pictureBreakpoint: {
         default: number("pictureBreakpoint (prop)", 576)
       }
@@ -48,6 +54,8 @@ storiesOf("Atoms|Image", module)
         :alt="alt"
         :transition="transition"
         :lazy="lazy"
+        :width="width"
+        :height="height"
         :placeholder="placeholder"
         :picture-breakpoint="pictureBreakpoint" />`
   }))
@@ -76,6 +84,12 @@ storiesOf("Atoms|Image", module)
       lazy: {
         default: boolean("lazy (prop)", true)
       },
+      height: {
+        default: number("Picture width(prop)", 216)
+      },
+      width: {
+        default: number("Picture height(prop)", 326)
+      },
       pictureBreakpoint: {
         default: number("picture-breakpoint (prop)", 576)
       }
@@ -86,6 +100,8 @@ storiesOf("Atoms|Image", module)
       :transition="transition"
       :lazy="lazy"
       :placeholder="placeholder"
+      :width="width"
+      :height="height"
       :picture-breakpoint="pictureBreakpoint">
       <span>angelina_trn</span>
     </SfImage>`

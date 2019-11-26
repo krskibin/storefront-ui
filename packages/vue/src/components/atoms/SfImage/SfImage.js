@@ -40,6 +40,18 @@ export default {
       default: ""
     },
     /**
+     * Const image width
+     */
+    width: {
+      type: Number
+    },
+    /**
+     * Const image height
+     */
+    height: {
+      type: Number
+    },
+    /**
      * Screen width breakpoint for picture tag media query
      */
     pictureBreakpoint: {
